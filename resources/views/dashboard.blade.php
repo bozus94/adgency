@@ -1,7 +1,8 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight flex justify-between">
             {{ __('Dashboard') }}
+            <span class="text-gray-400 text-base">Lepanto</span>
         </h2>
     </x-slot>
 
